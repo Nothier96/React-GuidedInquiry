@@ -14,7 +14,7 @@ let student = [
     address: "Atlanta",
   },
 ];
-function returnStudent(arr) {
+function returnStudents(arr) {
   return arr.map((student) => {
     return <BasicInfo student={student} />;
   });
@@ -30,7 +30,7 @@ class AppClass extends Component {
   render() {
     return (
       <div>
-        returnStudent(student)
+        returnStudents(student)
         {/* <h1>Thierno Sissoko</h1>
         <p>1712 termini drive</p>
         <p>08/20/1996</p>
